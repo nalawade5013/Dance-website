@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+ style
+      include ../static/style.css
+      
+block content
+ 
+
+  section#introsection 
+   div Welcome To Shriiz Dance Academy 
+   div.small For Admission click contact page
+
+  section#missonsection
+   h2 Our Mission 
+   div.card 
+     h3 Dance Perfection
+     div.card-box 
+        div.card-img 
+          img(src="/static/da.png")
+      
+   div.card 
+     h3 Dance as you Like
+     div.card-box 
+        div.card-img 
+          img(src="static/kida.png")
+    
+   div.card 
+     h3 Quality Teaching
+     div.card-box 
+        div.card-img 
+         img(src="static/dance.png")
+     
+
+  section#sponres
+    h2 Our Sponsors 
+    div#sponsorssection 
+      img(src="/static/net.png", alt="Netflix icon", class='spimage')
+      img(src="/static/appale.png", alt="appale icon", class='spimage')
+      img(src="/static/microsoft.png", alt="Microsoft icon", class='spimage')
+      img(src="/static/hp.png", alt="hp icon", class='spimage')
+  

@@ -1,0 +1,103 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+    
+
+block style 
+ style
+      include ../static/style.css
+      include ../static/stleabout.css 
+      
+
+block content 
+ script(src='https://cdn.tailwindcss.com')
+ h4 About Us
+ 
+ section.text-gray-600.body-font
+  .container.px-5.py-24.mx-auto.flex.flex-wrap
+    .w-full.mb-10.rounded-lg.overflow-hidden(class='lg:w-1/2 lg:mb-0')
+      img.object-cover.object-center.h-full.w-full(alt='feature' src='../static/sd.jpg')
+    .flex.flex-col.flex-wrap.-mb-10.text-center(class='lg:py-6 lg:w-1/2 lg:pl-12 lg:text-left')
+      .flex.flex-col.mb-10.items-center(class='lg:items-start')
+        .w-12.h-12.inline-flex.items-center.justify-center.rounded-full.bg-indigo-100.text-indigo-500.mb-5
+          svg.w-6.h-6(fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewbox='0 0 24 24')
+           
+        .flex-grow
+          h2.text-gray-900.text-lg.title-font.font-medium.mb-3 Best Academy
+          p.leading-relaxed.text-base
+            | Inspiration Dance Academy is a fun and friendly dance and music school situated in the heart of Jannali. Our goal is to provide a nurturing environment for beginner through to pre-professional dancers, inspiring the joy and passion of dance by fostering creative expressions. Come and join in on the fun at Inspiration Dance Academy.
+          a.mt-3.text-indigo-500.inline-flex.items-center
+            
+            svg.w-4.h-4.ml-2(fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewbox='0 0 24 24')
+             
+      .flex.flex-col.mb-10.items-center(class='lg:items-start')
+        .w-12.h-12.inline-flex.items-center.justify-center.rounded-full.bg-indigo-100.text-indigo-500.mb-5
+          svg.w-6.h-6(fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewbox='0 0 24 24')
+            circle(cx='6' cy='6' r='3')
+            circle(cx='6' cy='18' r='3')
+           
+        .flex-grow
+          h2.text-gray-900.text-lg.title-font.font-medium.mb-3 SHRIEE'Z academy
+          p.leading-relaxed.text-base
+            | airing rights to Dance Academy have been sold to 180 territories, airing on every continent except Antarctica. Casting for series one began in early 2009 in Brisbane, Melbourne and Sydney. All cast members had to be skilled in drama and dancing and had to cope with Australia's best choreographers
+          a.mt-3.text-indigo-500.inline-flex.items-center
+            
+            svg.w-4.h-4.ml-2(fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewbox='0 0 24 24')
+              
+      .flex.flex-col.mb-10.items-center(class='lg:items-start')
+        .w-12.h-12.inline-flex.items-center.justify-center.rounded-full.bg-indigo-100.text-indigo-500.mb-5
+          svg.w-6.h-6(fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewbox='0 0 24 24')
+           
+            circle(cx='12' cy='7' r='4')
+        .flex-grow
+          h2.text-gray-900.text-lg.title-font.font-medium.mb-3 Address
+          p.leading-relaxed.text-base
+            |Dance Academy in Mumbai is located in Khar, The Villaa Hotel, 15th Road, Lane, opposite Starbucks Coffee, Khar West, Mumbai, Maharashtra 400054, India. Website : ssda.in Contact Details : Add place’s phone number Services : Schools, Dance Schools 3.Deep Dance Academy
+          a.mt-3.text-indigo-500.inline-flex.items-center
+            
+            svg.w-4.h-4.ml-2(fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewbox='0 0 24 24')
+ section.text-gray-600.body-font
+  .container.px-5.py-24.mx-auto
+    .flex.items-center.mx-auto.border-b.pb-10.mb-10.border-gray-200.flex-col(class='lg:w-3/5 sm:flex-row')
+      .h-20.w-20.inline-flex.items-center.justify-center.rounded-full.bg-indigo-100.text-indigo-500.flex-shrink-0(class='sm:w-32 sm:h-32 sm:mr-10')
+        svg.w-10.h-10(fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' class='sm:w-16 sm:h-16' viewbox='0 0 24 24')
+          
+      .flex-grow.text-center.mt-6(class='sm:text-left sm:mt-0')
+        h2.text-gray-900.text-lg.title-font.font-medium.mb-2 Offer start
+        p.leading-relaxed.text-base
+          | Dance school in Mumbai offers courses which are creatively designed grasping the evolving trends SSDA dance classes offer best in class training to the students which will help them to excel in their careers Dance Classes in Mumbai | Dance Academy in Mumbai - SSDA
+        a.mt-3.text-indigo-500.inline-flex.items-center
+          | 
+          svg.w-4.h-4.ml-2(fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewbox='0 0 24 24')
+            
+    .flex.items-center.mx-auto.border-b.pb-10.mb-10.border-gray-200.flex-col(class='lg:w-3/5 sm:flex-row')
+      .flex-grow.text-center.mt-6(class='sm:text-left sm:mt-0')
+        h2.text-gray-900.text-lg.title-font.font-medium.mb-2 Why Choose this Academy ?
+        p.leading-relaxed.text-base
+          | Our dance centre in Mumbai is standardized in terms of flooring, using technology for managing the institute. Our dance academy is dedicated towards teaching best dance at very reasonable fees.
+        a.mt-3.text-indigo-500.inline-flex.items-center
+          | 
+          svg.w-4.h-4.ml-2(fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewbox='0 0 24 24')
+            
+      .order-first.h-20.w-20.inline-flex.items-center.justify-center.rounded-full.bg-indigo-100.text-indigo-500.flex-shrink-0(class='sm:w-32 sm:order-none sm:h-32 sm:ml-10')
+        svg.w-10.h-10(fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' class='sm:w-16 sm:h-16' viewbox='0 0 24 24')
+          circle(cx='6' cy='6' r='3')
+          circle(cx='6' cy='18' r='3')
+          
+    .flex.items-center.mx-auto.flex-col(class='lg:w-3/5 sm:flex-row')
+      .h-20.w-20.inline-flex.items-center.justify-center.rounded-full.bg-indigo-100.text-indigo-500.flex-shrink-0(class='sm:w-32 sm:h-32 sm:mr-10')
+        svg.w-10.h-10(fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' class='sm:w-16 sm:h-16' viewbox='0 0 24 24')
+          
+          circle(cx='12' cy='7' r='4')
+      .flex-grow.text-center.mt-6(class='sm:text-left sm:mt-0')
+        h2.text-gray-900.text-lg.title-font.font-medium.mb-2 What Is Shriee'z Danceacademy
+        p.leading-relaxed.text-base
+          | With an aim to provide quality dance training and making dance available to all, SHRIEE'Z dance classes run throughout the year at multiple locations for students from ages four to eighty four providing them with training in various dance styles by Shiamak’s expert faculty.
+        a.mt-3.text-indigo-500.inline-flex.items-center
+          | 
+          svg.w-4.h-4.ml-2(fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewbox='0 0 24 24')
+            
+    button.flex.mx-auto.mt-20.text-white.bg-indigo-500.border-0.py-2.px-8.rounded.text-lg(class='focus:outline-none hover:bg-indigo-600') 
+            
+  

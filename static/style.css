@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Oswald:wght@500&family=Smooch&family=Splash&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding:0px;
+}
+#logo{
+ 
+    display: flex;
+    color: white;
+    text-align: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 39px;
+    filter: invert(1);
+}
+#navbar{
+    background-color:black;
+    font-family: 'Oswald', sans-serif;
+    padding: 13px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+#navbar li a:hover{
+    font-weight: bold;
+    color:red;
+   
+}
+
+
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 37px;
+    align-items: center;
+    background: center/ cover no-repeat url("/static/bg.jpg");
+    height: 425px;
+    background-color: red;
+
+}
+
+#introsection div.small{
+    text-align: center;
+    font-size: 25x;
+}
+#sponres{
+    height: 300px;
+    background-color:white;
+
+}
+#footer{
+    height: 60px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     display: flex;
+    background-color: black;
+
+}
+#sponres h2{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 12px;
+}
+#sponsorssection{
+    height: 191px;
+    max-width: 1000px;
+    margin:27px 354px;
+}
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+#missonsection h2{
+    font-size: 32px;
+    text-align: center;
+}
+#missonsection{
+    height: 326px;
+    
+    background-color:white;
+    
+}
+.card{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0px 14px;
+    margin: 12px 147px;
+
+}
+.card-img img{
+    height: inherit;
+    
+
+}
+.small{
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
